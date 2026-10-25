@@ -1,15 +1,15 @@
 const myQuotes = [
-    { quote: "Im a beamerboy", author: "RAX" },
-    { quote: "uuuhhhh uhhmmm uhhhh uhhmmm i forgor...", author: "" },
-    { quote: "i want sprite :(", author: "RAX" }
+    { quote: "I like apples and bannanas", author: "George" },
+    { quote: "screaming man", author: "jack" },
+    { quote: "67", author: "Timmy" }
 ];
 
 // --- END: YOUR CUSTOM QUOTES ---
 
 // --- CONFIGURATION - REPLACE THESE VALUES ---
-const DISCORD_USER_ID = '1356334846351245515';
+const DISCORD_USER_ID = '';
 const OPENWEATHER_API_KEY = 'YOUR_OPENWEATHER_API_KEY_HERE'; 
-const CITY_NAME = 'UNKNOWN';
+const CITY_NAME = 'England';
 // --- END CONFIGURATION ---
 
 let activityCarouselInterval = null;
@@ -385,7 +385,7 @@ function typeWriterStart() {
 }
     typeWriterStart();
 
-    const name = "RAX";
+    const name = "Alx";
     let nameText = '';
     let nameIndex = 0;
     let isNameDeleting = false;
